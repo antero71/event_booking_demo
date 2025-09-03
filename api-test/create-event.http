@@ -1,0 +1,12 @@
+POST http://localhost:8090/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Q0QHRlc3QuY29tIiwiZXhwIjoxNzU2NzUzNTI5LCJ1c2VySWQiOjB9.09P34ZK5cDi9EpLVzpbXVvfZQzrS2OmdlfAVA1qPJ08
+
+{
+"EventName":"TammerSec 2",
+"Description":"Security event for people",
+"Location":"Koivukuja 22",
+"capacity":50,
+"DateTime":"2025-10-13T17:00:00.000Z"
+}
+
